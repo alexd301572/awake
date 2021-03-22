@@ -1,4 +1,3 @@
-
 REM    Awake - Sends a keystroke every minute in an effort to avoid the OS 
 REM        inactivity lock.
 REM    Copyright (C) 2021 Alexandru Dragomirescu
