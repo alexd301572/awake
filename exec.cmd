@@ -17,5 +17,8 @@ REM    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 @ECHO OFF
 
-PUSHD %~dp0
+SET WD=%~dp0
+SET WD=%WD:~0,-1%
+
+PUSHD %WD%\bin
 START "" java awake.Awake
